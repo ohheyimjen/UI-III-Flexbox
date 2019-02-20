@@ -75,6 +75,23 @@ h1, h2, h3, h4, h5 {
 	padding: 30px;
 }
 
+header .top {
+	display: flex;
+	font-size: 65px;
+	justify-content: center;
+	border-bottom: 1px solid black;
+}
 
+.mid-content {
+	display: flex;
+	
+}
 
+.middle-img {
+	display: flex;
+	justify-content: center;
+}
 
+.bottom-content {
+	display: flex;
+}
