@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: space-around;
 	padding: 30px;
+	text-decoration: none;
 }
 
 header .top {
@@ -84,7 +85,8 @@ header .top {
 
 .mid-content {
 	display: flex;
-	
+	justify-content: space-evenly;
+	padding: 30px;
 }
 
 .middle-img {
@@ -94,4 +96,23 @@ header .top {
 
 .bottom-content {
 	display: flex;
+	justify-content: space-evenly;
+	padding: 30px;
+	border-bottom: 1px solid black;
+}
+
+.end {
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+
+}
+
+.end .phone {
+	padding-top: 20px;
+}
+footer {
+	display: flex;
+	justify-content: center;
+	padding: 0 0 100px 0;
 }
