@@ -73,14 +73,35 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: space-around;
 	padding: 30px;
+	
+}
+.navigation a {
 	text-decoration: none;
+	color: black;
 }
 
 header .top {
 	display: flex;
 	font-size: 65px;
-	justify-content: center;
+	justify-content: space-evenly;
 	border-bottom: 1px solid black;
+}
+
+header h1 {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+header .top-image {
+	display: flex;
+	text-align: center;
+}
+
+header h1 button:hover {
+	color: purple;
+	background-color: aquamarine;
+	
 }
 
 .mid-content {
